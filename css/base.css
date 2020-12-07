@@ -216,7 +216,6 @@ input[type="checkbox"] + label {
 @media (min-width: 769px) {
 	.main-header,
 	.row {
-		width: 90%;
 		margin: 0 auto;
 	}
 	.tagline {
@@ -227,7 +226,7 @@ input[type="checkbox"] + label {
 @media (min-width: 1025px) {
 	.main-header,
 	.row {
-		width: 80%;
+		
 		max-width: 1150px;
 	}
 }
