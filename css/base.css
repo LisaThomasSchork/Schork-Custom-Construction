@@ -107,11 +107,18 @@ form {
 	margin: 0 .5em .8em;
 }
 
+.gallery {
+	padding: 1em;
+	background: #edf4f7;
+	border-radius: .35em;
+	margin: 0 .5em .8em;
+}
+
 img[src*="Donnelley"] {
 	margin: 4px;
 	border: solid 2px;
-	width: 200;
-	height: 121;
+	width: 25%;
+	height: 25%;
 }
 
 .main-footer {
@@ -209,6 +216,41 @@ input[type="checkbox"] + label {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ================================= 
   Media Queries
 ==================================== */
@@ -222,12 +264,5 @@ input[type="checkbox"] + label {
 		font-size: 1.4em;
 	}
 	
-}
-@media (min-width: 1025px) {
-	.main-header,
-	.row {
-		
-		max-width: 1150px;
-	}
 }
 
