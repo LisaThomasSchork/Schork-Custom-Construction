@@ -10,16 +10,23 @@
 		display: flex;
 	}
 
+	/* Clear floats after image containers */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
 	.main-header {
 		flex-direction: column;
 		align-items: center;
 	}
 
 	.col {
-		flex: 1;
-	
-		display: flex;
-		flex-direction: column;
+		flex: 33.33%;
+		padding: 5px;
+		float: left;
+		width: 33.33%;
 	}
 
 	.button {
