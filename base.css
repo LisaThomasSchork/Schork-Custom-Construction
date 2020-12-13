@@ -86,7 +86,7 @@ a {
 	text-shadow: 2px 2px black;
 	padding: 3.2em 0;
 	margin-bottom: 48px;
-	background-image: url(https://imageprocessor.digital.vistaprint.com/maxWidth/2000/progressive/https://assets.digital.vistaprint.com/2752957/backgrounds/background1.jpg);
+	background-image: url("background.jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-color: transparent;
@@ -100,19 +100,26 @@ form {
 	border-radius: 8px;
   }
 
-.col {
+.row {
 	padding: 1em;
 	background: wheat;
 	border-radius: .35em;
 	margin: 0 .5em .8em;
+	float: left;
+	width: 100%;
 }
 
-.gallery {
-	padding: 1em;
-	background: wheat;
-	border-radius: .35em;
-	margin: 0 .5em .8em;
-}
+.column {
+	float: left;
+	
+	padding: 5px;
+  }
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
 
 img[src*="Donnelley"] {
 	margin: 4px;
