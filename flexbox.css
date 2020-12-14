@@ -22,12 +22,6 @@
 		align-items: center;
 	}
 
-	.col {
-		flex: 33.33%;
-		padding: 5px;
-		float: left;
-		width: 33.33%;
-	}
 
 	.button {
 		margin-top: auto;
