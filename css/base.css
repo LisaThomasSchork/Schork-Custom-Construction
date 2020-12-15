@@ -102,19 +102,20 @@ form {
 
 .row {
 	padding: 1em;
-	background: wheat;
+	background: white;
 	border-radius: .35em;
 	margin: 0 .5em .8em;
 	float: left;
 	width: 100%;
 }
 
-.column {
-	float: left;
-	padding: 5px;
-	flex: 33.33%;
-	padding: 5px;
-  }
+.col {
+	padding: 2em;
+	background: wheat;
+	border-radius: .35em;
+	margin: 0 .5em .8em;
+	width: 50%;
+}
 
 .row::after {
 	content: "";
@@ -270,6 +271,10 @@ input[type="checkbox"] + label {
 	}
 	.tagline {
 		font-size: 1.4em;
+	}
+	.col {
+		flex: 1;
+		flex-direction: column;
 	}
 	
 }
