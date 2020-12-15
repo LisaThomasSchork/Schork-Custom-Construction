@@ -86,7 +86,7 @@ a {
 	text-shadow: 2px 2px black;
 	padding: 3.2em 0;
 	margin-bottom: 48px;
-	background-image: url("background.jpg");
+	background-image: url(../img/background.jpg);
     background-position: 50% 50%;
     background-size: cover;
     background-color: transparent;
