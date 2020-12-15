@@ -260,22 +260,5 @@ input[type="checkbox"] + label {
 
 
 
-/* ================================= 
-  Media Queries
-==================================== */
 
-@media (min-width: 769px) {
-	.main-header,
-	.row {
-		margin: 0 auto;
-	}
-	.tagline {
-		font-size: 1.4em;
-	}
-	.col {
-		flex: 1;
-		flex-direction: column;
-	}
-	
-}
 
