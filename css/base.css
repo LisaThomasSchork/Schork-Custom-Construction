@@ -131,6 +131,7 @@ form {
 	font-size: 30px;
   }
 
+
 .row::after {
 	content: "";
 	clear: both;
