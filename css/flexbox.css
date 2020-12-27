@@ -10,6 +10,7 @@
 	.col,
 	.flex-container {
 		display: flex;
+		
 	}
 	
 	.col {
@@ -18,11 +19,11 @@
 	}
 
 	/* Clear floats after image containers */
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+  	}
 
 	.main-header {
 		flex-direction: column;
@@ -40,9 +41,13 @@
 @media (min-width: 1025px) {
 
 	.main-header,
+	.main-nav,
+	.row,
+	.col,
 	.flex-container {
 		flex-direction: row;
 		justify-content: space-between;
 	}
+	
 
 }
