@@ -106,7 +106,6 @@ form {
 
 .row {
 	padding: 4em;
-	background: wheat;
 	border-radius: .35em;
 	margin: 0 .5em .8em;
 	float: left;
@@ -126,13 +125,14 @@ form {
 .flex-container {
 	display: flex;
 	background-color: wheat;
+	flex-wrap: wrap;
+	text-align: center;
   }
   
   .flex-container div {
 	background-color: #f1f1f1;
 	margin: 10px;
 	padding: 20px;
-	font-size: 30px;
   }
 
 

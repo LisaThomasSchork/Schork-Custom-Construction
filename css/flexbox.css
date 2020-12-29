@@ -10,6 +10,7 @@
 	.col,
 	.flex-container {
 		display: flex;
+		flex-direction: row;
 		
 	}
 	
@@ -43,7 +44,6 @@
 	.main-header,
 	.main-nav,
 	.row,
-	.col,
 	.flex-container {
 		flex-direction: row;
 		justify-content: space-between;
